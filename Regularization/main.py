@@ -1,7 +1,7 @@
 import pandas as pd 
 import numpy as np 
 
-df = pd.read_csv("15.lesson/Melbourne_housing_FULL.csv")
+df = pd.read_csv("Regularization/Melbourne_housing_FULL.csv")
 #print(df.head())
 
 # We clean data

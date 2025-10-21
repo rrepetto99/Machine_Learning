@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 import numpy as np 
 
 # Import dataframe
-df = pd.read_csv("6.lesson/HR_comma_sep.csv")
+df = pd.read_csv("Logistic_Regression/HR_comma_sep.csv")
 print(df.head(10))
 
 # Some summary statistics

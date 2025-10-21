@@ -32,7 +32,7 @@ model.fit(X_train, y_train)
 
 #print(y_test[:10])
 #print(model.predict(X_test[:10]))
-#print(model.predict_proba(X_test[:10])) #predict prbabilit for each wine class
+#print(model.predict_proba(X_test[:10])) #predict probability for each wine class
 
 from sklearn.model_selection import cross_val_score
 cross_Gauss = cross_val_score(GaussianNB(), X_train, y_train, cv=5)

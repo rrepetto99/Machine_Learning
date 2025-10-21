@@ -21,7 +21,7 @@ y = df['target']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 print(len(X_test))
 
-# SVP
+# Support Vector Machine
 from sklearn.svm import SVC
 model = SVC()
 

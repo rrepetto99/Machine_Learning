@@ -30,7 +30,7 @@ rf = RandomForestClassifier(n_estimators=10)
 rf.fit(X_train, y_train)
 rf.score(X_test, y_test)
 
-# Cross Val validation
+# Cross-validation
 from sklearn.model_selection import cross_val_score
 
 # LR

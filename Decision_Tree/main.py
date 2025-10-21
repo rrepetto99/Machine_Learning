@@ -4,7 +4,7 @@ import seaborn as sns
 from matplotlib import pyplot as plt 
 
 # Load Dataset
-df = pd.read_csv("8.lesson/titanic.csv")
+df = pd.read_csv("Decision_Tree/titanic.csv")
 
 
 # Define Variables

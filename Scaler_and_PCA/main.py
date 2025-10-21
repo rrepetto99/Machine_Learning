@@ -4,7 +4,7 @@ import seaborn as sn
 import numpy as np 
 
 # Load dataset
-df = pd.read_csv("17.lesson/heart.csv")
+df = pd.read_csv("Scaler_and_PCA/heart.csv")
 print(df.shape)
 
 cols = ['Age', 'RestingBP', 'Cholesterol', 'FastingBS', 'MaxHR', 'Oldpeak', 'HeartDisease']

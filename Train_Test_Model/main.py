@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-df = pd.read_csv("5.lesson/carpricesBMW.csv")
+df = pd.read_csv("Train_Test_Model/carpricesBMW.csv")
 print(df.head())
 
 # Plot to see the relationship Sell Price vs Age

@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from word2number import w2n
 
 # Import data file
-df = pd.read_csv("2.lesson/hiring.csv")
+df = pd.read_csv("Linear_Regression_2/hiring.csv")
 print(df)
  
 # We substitute NaN values

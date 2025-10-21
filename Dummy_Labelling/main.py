@@ -4,7 +4,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("4.lesson/carprices.csv")
+df = pd.read_csv("Dummy_Labelling/carprices.csv")
 
 #Plot 
 sns.relplot(data=df, x="Age(yrs)", y="Sell Price($)", hue="Car Model")

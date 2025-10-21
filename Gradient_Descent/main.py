@@ -7,7 +7,7 @@ import math
 
 # Simple linear regression
 def predict_using_sklearn():
-    df = pd.read_csv("3.lesson/test_scores.csv")
+    df = pd.read_csv("Gradient_Descent/test_scores.csv")
     reg = LinearRegression()
     reg.fit(df[['math']], df[['cs']])
     return reg.coef_, reg.intercept_
